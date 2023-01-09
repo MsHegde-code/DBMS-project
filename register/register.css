@@ -1,0 +1,116 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+a {
+  text-decoration: none;
+}
+.form-2 {
+  margin: auto;
+  margin-bottom: 20px;
+  max-width: 350px;
+  padding: 50px;
+  border: 2px black solid;
+  border-radius: 8px;
+  display: block;
+}
+body {
+  background-color: beige;
+}
+h2 {
+  text-align: center;
+  font-weight: bold;
+  font-size: 35px;
+  background-color: green;
+  color: black;
+}
+h3 {
+  display: flex;
+  justify-content: center;
+  font-size: 25px;
+  background-color: darkgoldenrod;
+  color: aliceblue;
+}
+.name {
+  display: block;
+  justify-content: center;
+}
+.email-grp input {
+  height: 30px;
+  width: 304px;
+  display: inline-block;
+  box-sizing: border-box;
+  border-radius: 4px;
+}
+.name label {
+  display: block;
+}
+.form-2 label[for="email"] {
+  display: block;
+}
+.form-2 label[for="password"] {
+  display: block;
+}
+
+.name input {
+  width: 150px;
+  height: 30px;
+  border-radius: 5px;
+  display: inline-block;
+  box-sizing: border-box;
+}
+
+.city-phone-container {
+  display: flex;
+}
+
+.phone input {
+  display: block;
+  box-sizing: border-box;
+  border-radius: 5px;
+  height: 30px;
+  width: 150px;
+}
+.city input {
+  display: block;
+  box-sizing: border-box;
+  height: 30px;
+  width: 150px;
+  border-radius: 5px;
+}
+.dob-sex-cont {
+  display: flex;
+}
+.dob input {
+  box-sizing: border-box;
+  border-radius: 5px;
+  display: block;
+  height: 30px;
+  width: 150px;
+  text-align: center;
+}
+.gender select {
+  border: 2px black solid;
+  display: block;
+  border-radius: 5px;
+  text-align: center;
+  height: 30px;
+  width: 150px;
+}
+.submit {
+  display: flex;
+  justify-content: center;
+}
+.submit button {
+  border: 2px black solid;
+  border-radius: 5px;
+  text-align: center;
+  font-size: medium;
+  background-color: darkgoldenrod;
+  color: black;
+  padding: 5px;
+}
+.existing-user {
+  display: flex;
+  justify-content: center;
+}
