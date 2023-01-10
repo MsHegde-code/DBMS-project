@@ -25,8 +25,14 @@ body {
   display: flex;
   padding: 5px;
   margin: 20px;
+  justify-content: center;
+}
+.form-1 form {
   border: 2px black solid;
-  border-radius: 3px;
+  border-radius: 8px;
+  padding: 8px;
+  width: 30%;
+  display: block;
   justify-content: center;
 }
 .login-label {
@@ -38,17 +44,25 @@ body {
 }
 .form-user label {
   display: block;
+  padding-bottom: 5px;
+  text-align: left;
+  font-weight: bold;
+  font-size: large;
 }
 
 .form-pass label {
   display: block;
+  padding-bottom: 5px;
+  text-align: left;
+  font-weight: bold;
+  font-size: large;
 }
 .form-pass input {
   box-sizing: border-box;
   display: block;
   border-radius: 5px;
   height: 30px;
-  width: 150px;
+  width: 100%;
   margin: auto;
 }
 .form-user input {
@@ -56,7 +70,7 @@ body {
   display: block;
   border-radius: 5px;
   height: 30px;
-  width: 150px;
+  width: 100%;
   margin: auto;
 }
 .form-submit {
@@ -68,7 +82,13 @@ body {
   display: flex;
   box-sizing: border-box;
   background-color: black;
+  border-radius: 8px;
+  padding: 2px;
   color: aliceblue;
-  border: 3px yellow solid;
+  border: 3px orange solid;
   padding: 3px;
+}
+.register {
+  display: flex;
+  justify-content: center;
 }
