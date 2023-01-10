@@ -16,7 +16,7 @@ h2 {
 }
 .form-container {
   display: flex;
-  border: 1px black dashed;
+  border: 2px black dashed;
   padding: 2%;
   margin: 10px;
 }
