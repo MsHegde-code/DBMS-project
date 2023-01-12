@@ -42,7 +42,8 @@ h2 {
 }
 .body-header {
   padding: 2%;
-  background-color: gold;
+  background-color: rgb(148, 206, 87);
+  margin: 10px;
 }
 .cart {
   float: left;
@@ -113,4 +114,13 @@ h2 {
   color: white;
   text-align: center;
   font-size: small;
+}
+.marquee {
+  margin: 5px;
+  overflow: hidden;
+  position: relative;
+  background-color: lightgray;
+  color: red;
+  height: auto;
+  font-size: larger;
 }
