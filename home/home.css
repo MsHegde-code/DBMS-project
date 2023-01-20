@@ -116,7 +116,7 @@ h2 {
   font-size: small;
 }
 .marquee {
-  margin: 5px;
+  margin: 10px;
   overflow: hidden;
   position: relative;
   background-color: lightgray;
