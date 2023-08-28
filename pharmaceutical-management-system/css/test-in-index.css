@@ -1,0 +1,76 @@
+body {
+  background-color: rgb(120, 172, 120);
+}
+.breadcrumb {
+  height: 60px;
+  display: flex;
+  align-items: center;
+  margin: 10px;
+  background-color: darkgoldenrod;
+  border: 2px olivedrab solid;
+  border-radius: 10px;
+}
+.breadcrumb a {
+  color: black;
+  font-weight: bold;
+}
+.breadcrumb > .active {
+  color: black;
+  font-weight: bold;
+}
+.breadcrumb > li + li:before {
+  color: black;
+}
+.tableBox {
+  margin: 10px;
+  padding: 5px;
+  border: 2px darkgreen solid;
+  border-radius: 10px;
+  padding: 5px;
+}
+.tableBox input {
+  box-sizing: border-box;
+  border: 2px black solid;
+  border-radius: 8px;
+}
+.tableBox select {
+  box-sizing: border-box;
+  border: 2px black solid;
+  border-radius: 8px;
+}
+.well-sm {
+  border: 1.8px black solid;
+  border-radius: 5px;
+  margin: 5px;
+  padding: 5px;
+}
+
+.well {
+  box-sizing: border-box;
+  border: 2px black solid;
+  border-radius: 5px;
+  font-weight: bold;
+  text-align: center;
+}
+.well h4 {
+  font-size: large;
+  font-weight: bold;
+  color: black;
+  margin: 5px;
+  border-bottom: 2px black dotted;
+}
+.well-sm input {
+  box-sizing: border-box;
+  border: 2px black solid;
+  border-radius: 5px;
+}
+.well-sm select {
+  box-sizing: border-box;
+  border: 2px black solid;
+  border-radius: 5px;
+}
+.well-sm textarea {
+  box-sizing: border-box;
+  border: 2px black solid;
+  border-radius: 5px;
+}

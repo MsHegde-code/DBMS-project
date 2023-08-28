@@ -1,0 +1,60 @@
+body {
+  background-color: rgb(119, 153, 119);
+}
+.content2 {
+  display: block;
+  justify-items: center;
+}
+a {
+  text-decoration: none;
+}
+.breadcrumb {
+  height: 60px;
+  display: flex;
+  align-items: center;
+  margin: 10px;
+  background-color: darkgoldenrod;
+  border: 2px olivedrab solid;
+  border-radius: 10px;
+}
+.breadcrumb a {
+  color: black;
+  font-weight: bold;
+}
+.breadcrumb > .active {
+  color: black;
+  font-weight: bold;
+}
+.breadcrumb > li + li:before {
+  color: black;
+}
+.content2 table {
+  margin: 5px;
+  border: 1px black solid;
+  border-radius: 5px;
+  background-color: antiquewhite;
+  font-size: medium;
+  font-weight: bold;
+}
+.content2 div {
+  margin: 10px;
+  padding: 7px;
+  position: relative;
+  height: 45px;
+  background-color: rgb(205, 193, 58);
+  border: 2px olivedrab solid;
+  border-radius: 10px;
+  color: black;
+  font-size: medium;
+  font-weight: bold;
+}
+.content2 div span {
+  float: left;
+  color: black;
+  font-size: large  ;
+  font-weight: bold;
+}
+.content2 div button {
+  float: right;
+  color: black;
+}
